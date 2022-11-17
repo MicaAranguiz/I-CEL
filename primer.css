@@ -1,0 +1,105 @@
+#titulo{
+    margin-left:20px;
+    margin-right: 20px;
+    text-align: center;
+    color: black; 
+    padding:0.5%; 
+}
+#espacio{
+    margin-top:55px;
+}
+#logocompra{
+    width: 3%;
+    height: 5%;
+}
+.imagennuestra{
+    height: 300px;
+    width:300px;
+}
+#imageness{ 
+    background-color:#9984e5;
+    height:500px;
+    width:100%;   
+}
+#tituloschicos{
+    margin-top:10%;
+    color:white;
+    font-size:30px;
+}
+#imagenescolumnas{
+margin-bottom:10%;
+margin-top:10%;
+}
+h1{
+    color:darkslateblue;
+    font-weight: 700;
+}
+#espacio{
+       margin-top:50px;
+   }
+.btn{
+    width: 99%;
+    margin: 0.5%;
+    background-color: darkslateblue !important;
+} 
+.img-card{
+    height: 300px;
+    margin: auto;
+    margin-top: 4%;
+}
+.card * p{
+    text-align: justify;
+}
+.precio{
+    color: green !important;
+    font-weight: bold;
+    font-size: 150%;
+}
+.pcard{
+    height: 9rem;
+    overflow-y: scroll;
+}
+#logo{
+    width:5%;
+    height:5%;
+    margin-right:25%;
+}
+.nav-link{
+    font-size: 25px !important;
+    color:white !important;
+}
+.navbar-brand{
+font-size: 27px !important;
+color:white !important;
+}
+#titulosper{
+    font-weight: 900 !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+#textoinicio{
+    font-size: 24px;
+    text-align: center;
+}
+#carouselExampleDark{
+    width:60%;
+   margin-left: 20%;
+}
+.card-text{
+    text-align: center !important;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.ul-modal{
+    text-align: left;
+}
+.boldmodal{
+    font-weight: bolder;
+}
+.ul-modal>li{
+    padding: 2%;
+}
+#mapa{
+    text-align: center;
+}

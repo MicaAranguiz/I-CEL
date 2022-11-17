@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I-CELL</title>
+    <link href="primer.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <img src="/las-compras-en-linea.png" id="logo">
+          <a class="navbar-brand" href="/primer.html">I-CELL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+           
+              <li class="nav-item">
+                <a class="nav-link" href="/segundo.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/tercer.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+          <img src="/carrito-de-compras.png" id="logocompra">
+        </div>
+      </nav>
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div id="imageness">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h1 id="tituloschicos"> SAMSUNG</h1>
+                                <a href="https://www.samsung.com/ar/"><img
+                                        src="https://cdn.shopify.com/s/files/1/0271/0922/8578/products/Samsung-galaxy-s10-plus_9ef6c212-3a64-4630-96ad-5ccf89231442_1200x.png?v=1621301842"
+                                        class="imagennuestra" alt="..."></a>
+                            </div>
+                            <div class="col">
+                                <h1 id="tituloschicos"> APPLE</h1>
+                                <a href="https://www.apple.com/la/"> <img
+                                        src="https://www.darksideleds.com/wp-content/uploads/2022/02/iphone-13-blue-select-2021-e1644996038413.png"
+                                        class="imagennuestra" alt="..."></a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="imageness">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h1 id="tituloschicos"> XIAOMI</h1>
+                                <a href="https://xiaomistore.com.ar/"><img
+                                        src="https://www.megatone.net/images//Articulos/zoom2x/209/MKT0756ETC-1.png"
+                                        class="imagennuestra" alt="...">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <h1 id="tituloschicos"> MOTOROLA</h1>
+                                <a href="https://www.motorola.com.ar/"><img
+                                        src="https://ileven.com.ar/wp-content/uploads/2022/05/002210_2.png"
+                                        class="imagennuestra" alt="...">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="imageness">
+                    <div class="container text-center">
+                        <div class="row">
+
+                            <div class="col">
+                                <h1 id="tituloschicos">LENOVO</h1>
+                                <a
+                                    href="https://www.lenovo.com/ar/es/d/LAPTOPS?sort=sortBy&resultsLayoutType=grid&visibleDatas=facet_Processor%3AIntel%C2%AE%20Core%E2%84%A2%20i7%3Bfacet_Processor%3AIntel%C2%AE%20Core%E2%84%A2%20i5%3Bfacet_Processor%3AIntel%C2%AE%20Core%E2%84%A2%20i3&cid=ar:sem|se|google|lenovo-argentina|LenovoINFOArgentina|lenovo%20argentina|b|1707210363|72275422688|kwd-303403243853|text|brand|all&gclid=CjwKCAjws--ZBhAXEiwAv-RNLxtV_CGAPe1die55n3WWLuEUtrqLYyuhrAIN01J94kT5Z0cGyVgpZhoCo3wQAvD_BwE"><img
+                                        src="https://ae01.alicdn.com/kf/H6ed428ce10944d8980da1c0cf35cd780j/Lenovo-tel-fono-m-vil-Lenovo-A7-versi-n-Global-SPREADTRUM-SC9863A-Octa-Core-2GB-RAM.png"
+                                        class="imagennuestra" alt="..."></a>
+
+                            </div>
+
+                            <div class="col">
+                                <h1 id="tituloschicos"> HUAWEI</h1>
+                                <a href="https://consumer.huawei.com/ar/"> <img
+                                        src="https://img01.huaweifile.com/sg/ms/co/pms/uomcdn/CO_HW_B2C/pms/202208/gbom/6941487255788/428_428_56DF59C8A6C99B0D2001BDF4B3FF8548mp.png"
+                                        class="imagennuestra" alt="..."></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section id="espacio">
+
+    </section>
+    <div id="titulo">
+        <h1 id="" titulosper> TENDENCIAS</h1>
+    </div>
+    <section id="espacio">
+
+    </section>
+    <div class="container text-center">
+        <div class="row row-cols-3">
+            <div class="col text-light">
+                <br>
+
+                <div class="card" style="">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-card" class="img-card" class="img-card"
+                                    src="https://www.rueducommerce.fr/media/images/web/produit/3298012/20210927131501/iphone-13-128go-rose-3_1140x1140.jpg"
+                                    class="card-img-top" alt="Puto">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-card" class="img-card" class="img-card"
+                                    src="https://images.fravega.com/f500/13150c892cf7d110de357518ac0dd580.jpg"
+                                    class="card-img-top" alt="Puto">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-card" class="img-card" class="img-card"
+                                    src="https://www.laptopsdirect.co.uk/Images/TR10311_3_Supersize.png?v=4"
+                                    class="card-img-top" alt="Puto">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Iphone 13 Rose Gold</h5>
+                        <p class="card-text pcard text-dark"> iPhone 13. El sistema de dos cámaras más
+                            avanzado en un
+                            iPhone.
+                            El superrápido chip A15 Bionic. Un gran
+                            salto en duración de batería. Un diseño resistente. Y una pantalla Super Retina
+                            XDR más
+                            brillante.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item precio">$ 329.273
+
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="gap-2 grid">
+                            <i class="bi bi-cart-plus-fill"></i>
+                            <button class="btn btn-primary" type="button" data-toggle="modal"
+                                data-target=".bd-example-modal-sm">INFO</button>
+                            <button class="btn btn-primary" type="button">AGREGAR AL CARRITO </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="header-modal">
+                            <br>
+                            <h5>CARACTERISTICAS</h5>
+                        </div>
+                        <hr>
+                        <div class="body-modal">
+                            <ul class="ul-modal">
+                                <li>Memoria Interna: <span class="boldmodal">128gb</span></li>
+                                <li>Memoria RAM: <span class="boldmodal">6gb</span></li>
+                                <li>Camara Trasera: <span class="boldmodal">12Mpx</span></li>
+                                <li>Camara Frontal: <span class="boldmodal">12Mpx</span></li>
+                                <li>Procesador: <span class="boldmodal">A15Bionic</span></li>
+                                <li>NFS: <span class="boldmodal">Si</span></li>
+                                <li>Tipos de desbloqueo: <span class="boldmodal">FaceID</span></li>
+                                <li>Frecuencia de la pantalla: <span class="boldmodal">60hz</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-light">
+                <br>
+                <div class="card" style="">
+                    <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                        <!--cambiar nombre del id para que no giren los de las mismas tarjetas-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-card" class="img-card"
+                                    src="https://totalgaming.com.ar/wp-content/uploads/sony-xperia-5-iii-02.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-card" class="img-card"
+                                    src="https://www.sony.es/image/11b000ac0e8f20fe24151fd2d5a03d1b?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-card" class="img-card"
+                                    src="https://d2tfhz5takygeh.cloudfront.net/contents/img/products/SO53B/SO53B_Green_XL.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Sony Xperia 5 III</h5>
+                        <p class="card-text pcard  text-dark"> Con velocidad 5G2, un rendimiento potente y
+                            una
+                            impresionante
+                            duración de la batería, incluye las últimas tecnologías de Sony en materia de
+                            cámaras,
+                            pantallas, sonido y juegos en un diseño compacto que permite un uso sencillo con
+                            una sola
+                            mano.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item precio">$ 320.000
+
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="gap-2 grid">
+                            <i class="bi bi-cart-plus-fill"></i>
+                            <button class="btn btn-primary" type="button" data-toggle="modal"
+                                data-target=".bd-example-modal-sm2">INFO</button>
+                            <button class="btn btn-primary" type="button">AGREGAR AL CARRITO </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="header-modal">
+                            <br>
+                            <h5>CARACTERISTICAS</h5>
+                        </div>
+                        <hr>
+                        <div class="body-modal">
+                            <ul class="ul-modal">
+                                <li>Memoria Interna: <span class="boldmodal">256gb</span></li>
+                                <li>Memoria RAM: <span class="boldmodal">6gb</span></li>
+                                <li>Camara Trasera: <span class="boldmodal">12Mpx</span></li>
+                                <li>Camara Frontal: <span class="boldmodal">8Mpx</span></li>
+                                <li>Procesador: <span class="boldmodal">A15Bionic</span></li>
+                                <li>NFS: <span class="boldmodal">Si</span></li>
+                                <li>Tipos de desbloqueo: <span class="boldmodal">Huella dactilar y reconocimiento
+                                        facial</span></li>
+                                <li>Frecuencia de la pantalla: <span class="boldmodal">60hz</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-light">
+                <br>
+                <div class="card" style="">
+                    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+
+                                <img class="img-card"
+                                    src="https://m.media-amazon.com/images/I/51GDYQbpTML._AC_SL1200_.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-card" src="https://www.moviles.com/fotos/motorola-moto-g30-89656-g.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-card"
+                                    src="https://images4.kabum.com.br/produtos/fotos/154274/smartphone-motorola-moto-g30-128gb-ram-4gb-octa-core-camera-quadrupla-5000mah-white-lilac-pamk0001br_1616617127_g.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Moto G30</h5>
+                        <p class="card-text pcard  text-dark"> Fotografía profesional en tu bolsillo
+                            Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de
+                            tu equipo.
+                            Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y
+                            efectos para
+                            obtener grandes resultados.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item precio">$ 174.707
+
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="gap-2 grid">
+                            <button class="btn btn-primary" type="button" data-toggle="modal"
+                                data-target=".bd-example-modal-sm3">INFO</button>
+                            <button class="btn btn-primary" type="button">AGREGAR AL CARRITO </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-sm3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="header-modal">
+                        <br>
+                        <h5>CARACTERISTICAS</h5>
+                    </div>
+                    <hr>
+                    <div class="body-modal">
+                        <ul class="ul-modal">
+                            <li>Memoria Interna: <span class="boldmodal">256gb</span></li>
+                            <li>Memoria RAM: <span class="boldmodal">6gb</span></li>
+                            <li>Camara Trasera: <span class="boldmodal">12Mpx</span></li>
+                            <li>Camara Frontal: <span class="boldmodal">8Mpx</span></li>
+                            <li>Procesador: <span class="boldmodal">A15Bionic</span></li>
+                            <li>NFS: <span class="boldmodal">Si</span></li>
+                            <li>Tipos de desbloqueo: <span class="boldmodal">Huella dactilar y reconocimiento
+                                    facial</span></li>
+                            <li>Frecuencia de la pantalla: <span class="boldmodal">60hz</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col text-light">
+                <br>
+                <div class="card" style="">
+                    <img class="img-card" class="img-card" class="img-card"
+                        src="https://www.etercor.com.ar/wp-content/uploads/2021/09/K9-black%E7%A3%A8%E7%A0%82-%E6%AD%A3%E8%A7%86-Front-Back.jpg"
+                        class="card-img-top" alt="Puto">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Xiaomi Mi 11 Lite
+                        </h5>
+                        <p class="card-text pcard text-dark"> Experiencia visual increíble
+                            Mirá tus series y películas favoritas con la mejor definición a través de su
+                            pantalla AMOLED
+                            de 6.55". Disfrutá de colores brillantes y INFO precisos en todos tus
+                            contenidos.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item precio">$ 134.159
+
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="gap-2 grid">
+                            <button class="btn btn-primary" type="button">AGREGAR AL CARRITO </button>
+                            <button class="btn btn-primary" type="button">INFO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-light">
+                <br>
+                <div class="card" style="">
+                    <img class="img-card" class="img-card" class="img-card"
+                        src="https://http2.mlstatic.com/D_NQ_NP_2X_994771-MLA50433522076_062022-F.webp"
+                        class="card-img-top" alt="Puto">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Blackview Bv6600 Pro
+                        </h5>
+                        <p class="card-text pcard  text-dark"> Blackview BV6600 Pro cuenta con 4 GB de
+                            memoria RAM junto
+                            a 64
+                            GB de ROM. Pantalla HD de 5,7 pulgadas bajo el sistema operativo Android 11 con
+                            CÁMARA
+                            TÉRMICA.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item precio">$ 329.273
+
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="gap-2 grid">
+                            <button class="btn btn-primary" type="button">AGREGAR AL CARRITO </button>
+                            <button class="btn btn-primary" type="button">INFO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-light">
+                <br>
+                <div class="card" style="">
+                    <img class="img-card" class="img-card" class="img-card"
+                        src="https://d2ye0ltusw47tz.cloudfront.net/24827846-large_default/xiaomi-redmi-note-10-5-g-dual-sim-128-gb-gris-grafito-4-gb-ram.jpg"
+                        class="card-img-top" alt="Puto">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Xiaomi Redmi Note 10
+                        </h5>
+                        <p class="card-text pcard text-dark"> Batería de duración superior
+                            ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más
+                            tiempo para
+                            jugar, ver series o trabajar sin necesidad de realizar recargas.
+
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item precio">$ 81.699
+
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="gap-2 grid">
+                            <button class="btn btn-primary" type="button">AGREGAR AL CARRITO </button>
+                            <button class="btn btn-primary" type="button">INFO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
